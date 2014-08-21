@@ -8,27 +8,33 @@
 
 ### Server Requirement
 
-This package is require PHP 5.4 or higher.
+	This package is require PHP 5.4 or higher.
 
 ### Installation
 
-Open your composer.json file, and add the new required package.
+	Open your composer.json file, and add the new required package.
 
-   "pingpong/csv-reader": "1.0.*"
+	```
+	"pingpong/csv-reader": "1.0.*"
+	```
 
-Next, open a terminal and run.
+	Next, open a terminal and run.
 
+	```
 	composer update
+	```
 
-Next, Add new aliases in app/config/app.php.
+	Next, Add new aliases in app/config/app.php.
 
-   'CsvReader' => 'Pingpong\CsvReader\Facades\CsvReader',
+	```
+	'CsvReader' => 'Pingpong\CsvReader\Facades\CsvReader',
+	```
 
 Done.
 
 ### Usage
 
-Basic Usage.
+Create new instance.
 
 ```php
 $path = app_path('file.csv');
@@ -75,17 +81,13 @@ foreach($csv as $item)
 
 ### Without Laravel
 
-Create new instance.
+Basically all functions and APIs  same as above.
 
 ```php
 $path = __DIR__ . '/path/to/csvfile.csv';
 
 $csv = new Pingpong\CsvReader\CsvReader($path);
-```
 
-Get Data
-
-```php
 $data = $csv->getData();
 ```
 
