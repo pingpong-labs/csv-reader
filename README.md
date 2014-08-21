@@ -1,6 +1,6 @@
 ## Laravel 4 - CSV Reader
 
-[![Build Status](https://travis-ci.org/pingpong-labs/csv-reader.svg)](https://travis-ci.org/pingpong/csv-reader)
+[![Build Status](https://travis-ci.org/pingpong-labs/csv-reader.svg?branch=master)](https://travis-ci.org/pingpong-labs/csv-reader)
 [![Total Downloads](https://poser.pugx.org/pingpong/csv-reader/downloads.svg)](https://packagist.org/packages/pingpong/csv-reader)
 [![Latest Stable Version](https://poser.pugx.org/pingpong/csv-reader/v/stable.svg)](https://packagist.org/packages/pingpong/csv-reader)
 [![Latest Unstable Version](https://poser.pugx.org/pingpong/csv-reader/v/unstable.svg)](https://packagist.org/packages/pingpong/csv-reader)
