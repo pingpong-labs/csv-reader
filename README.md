@@ -26,7 +26,7 @@ composer update
 
 Next, Add new aliases in app/config/app.php.
 
-```
+```php
 'CsvReader' => 'Pingpong\CsvReader\Facades\CsvReader',
 ```
 
