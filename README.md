@@ -8,27 +8,27 @@
 
 ### Server Requirement
 
-	This package is require PHP 5.4 or higher.
+This package is require PHP 5.4 or higher.
 
 ### Installation
 
-	Open your composer.json file, and add the new required package.
+Open your composer.json file, and add the new required package.
 
-	```
-	"pingpong/csv-reader": "1.0.*"
-	```
+```
+"pingpong/csv-reader": "1.0.*"
+```
 
-	Next, open a terminal and run.
+Next, open a terminal and run.
 
-	```
-	composer update
-	```
+```
+composer update
+```
 
-	Next, Add new aliases in app/config/app.php.
+Next, Add new aliases in app/config/app.php.
 
-	```
-	'CsvReader' => 'Pingpong\CsvReader\Facades\CsvReader',
-	```
+```
+'CsvReader' => 'Pingpong\CsvReader\Facades\CsvReader',
+```
 
 Done.
 
