@@ -1,0 +1,26 @@
+{
+    "name": "pingpong/csv-reader",
+    "description": "Laravel 4 - Csv Reader",
+    "keywords": ["csv", "reader", "csv-reader", "laravel", "pingpong"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pingpong Labs",
+            "email": "pingpong.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pingpong\\CsvReader": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
