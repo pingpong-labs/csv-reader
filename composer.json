@@ -2,7 +2,7 @@
     "name": "pingpong/csv-reader",
     "description": "Laravel 4 - Csv Reader",
     "keywords": ["csv", "reader", "csv-reader", "laravel", "pingpong"],
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Pingpong Labs",
